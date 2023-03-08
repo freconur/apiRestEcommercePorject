@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const whitelist = ['http://localhost:3001', 'http://127.0.0.1:5500', 'http://localhost:3000','https://ecommerce-freconur.vercel.app/'];
+const whitelist = ['http://localhost:3001', 'http://localhost:3000',"https://ecommerce-wikzon.vercel.app"];
 const options = {
 
   origin: (origin, callback) => {
